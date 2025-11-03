@@ -10,7 +10,7 @@ I'm a passionate developer who loves building innovative solutions and learning 
 - 🔭 I'm currently working on exciting projects
 - 🌱 I'm constantly learning and improving my skills
 - 💬 Ask me about web development, programming, and technology
-- 📫 How to reach me: [Your Email]
+- 📫 How to reach me: [mfkhalil683@gmail.com]
 - ⚡ Fun fact: I love solving complex problems!
 
 ## 🛠️ Technologies & Tools
