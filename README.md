@@ -1,4 +1,4 @@
-# Hi there, I'm Faizan! 👋
+# Hi there, I'm Muhammad Faizan! 👋
 
 [![GitHub followers](https://img.shields.io/github/followers/MFAIZAN20?label=Follow&style=social)](https://github.com/MFAIZAN20)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
