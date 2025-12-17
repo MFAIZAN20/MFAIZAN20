@@ -1,0 +1,220 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{setspace}
+\usepackage{iftex}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\ifPDFTeX
+  \input{glyphtounicode}
+  \pdfgentounicode=1
+\fi
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{{
+ #1 \vspace{-2pt}}
+}}
+
+\newcommand{\resumeSubheading}[4]{\vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{\raisebox{0.25ex}{\tiny\textbullet}}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge Muhammad Faizan} \\ \vspace{4pt}
+    \small Location: Peshawar, Pakistan \textbar\ Phone: +92 317-9911790 \textbar\ Email: \href{mailto:mfkhalil683@gmail.com}{mfkhalil683@gmail.com} \\
+    \small GitHub: \href{https://github.com/MFAIZAN20}{github.com/MFAIZAN20}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\setstretch{1.1}
+\resumeSubHeadingListStart
+    \resumeItem{Build scalable backend systems and AI-enabled applications using \textbf{Spring Boot (Kotlin)}, \textbf{ASP.NET Core}, and \textbf{Python}.}
+    \resumeItem{Design and deploy \textbf{microservices} with \textbf{Docker}, \textbf{Kubernetes}, and \textbf{CI and CD} (\textbf{GitHub Actions}) on cloud platforms.}
+    \resumeItem{Deliver production-ready \textbf{REST APIs} with \textbf{JWT} security, \textbf{PostgreSQL} data modeling, and performance-focused engineering.}
+\resumeSubHeadingListEnd
+\setstretch{1.0}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National University of Computer and Emerging Sciences (FAST-NUCES)}{Peshawar, PK}
+      {Bachelor of Science in Software Engineering}{Aug 2022 -- May 2026 (Expected)}
+\resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Software Design and Architecture, Data Structures, Database Systems, Operating Systems, Computer Networks, Artificial Intelligence, Design and Analysis of Algorithms.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \resumeItem{\textbf{Backend and API development:} Spring Boot (Kotlin), ASP.NET Core, Node.js (Express), REST API design, JWT, Hibernate/JPA}
+   \resumeItem{\textbf{Cloud and DevOps:} Kubernetes (Minikube), Docker, Azure App Service, GitHub Actions (CI and CD), Nginx, Linux}
+   \resumeItem{\textbf{AI and Machine Learning:} Python, PyTorch, RAG (FAISS), LLMs (Mistral, Gemma), Vision Transformers (ViT), Reinforcement Learning}
+   \resumeItem{\textbf{Mobile and Frontend:} Kotlin (Android), Jetpack Compose, MVVM, Hilt DI, Room, Retrofit}
+   \resumeItem{\textbf{Databases:} PostgreSQL, MySQL, SQL Server, Redis, SQLite, MongoDB}
+ \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Engineer - ASP.NET Core, Azure (Remote Contract)}{Nov 2025 -- Dec 2025}
+      {Event Ticketing System}{Remote Client Project}
+      \resumeItemListStart
+        \resumeItem{Delivered a production-ready Event Ticketing System using \textbf{ASP.NET Core} and \textbf{Azure} within a 4-week contract.}
+        \resumeItem{Built \textbf{15+ REST API endpoints} for authentication, event management, ticket generation, and user management.}
+        \resumeItem{Implemented \textbf{RBAC} and designed \textbf{8+ relational tables} in PostgreSQL (Supabase).}
+        \resumeItem{Automated testing and deployment with \textbf{GitHub Actions} to Azure App Service.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {SkinSense -- AI-Powered Virtual Dermatology System}{Aug 2025 -- Present}
+      {Final Year Project}{GitHub: \href{https://github.com/MFAIZAN20}{github.com/MFAIZAN20}}
+      \resumeItemListStart
+        \resumeItem{Architected a multimodal AI healthcare platform using \textbf{microservices} to analyze skin imagery and symptoms.}
+        \resumeItem{Integrated \textbf{BLIP} and fine-tuned \textbf{Vision Transformers (ViT)} on dermatology datasets for image captioning and disease classification.}
+        \resumeItem{Built a Retrieval-Augmented Generation (RAG) system with \textbf{FAISS} to ground LLM responses in medical corpora.}
+        \resumeItem{Deployed instruction-tuned LLMs (\textbf{Mistral, Gemma}) as intelligent agents for patient intake and doctor assistance.}
+        \resumeItem{Containerized the microservices suite using \textbf{Docker} and orchestrated deployments with \textbf{Kubernetes (Minikube)}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {eShop -- Multi-Role E-Commerce Ecosystem}{June 2025 -- Aug 2025}
+      {Full-Stack E-Commerce Platform}{\href{https://github.com/MFAIZAN20/eshop-backend}{github.com/MFAIZAN20/eshop-backend}}
+      \resumeItemListStart
+        \resumeItem{Built a secure \textbf{Spring Boot (Kotlin)} backend implementing stateless \textbf{JWT authentication} with custom filters to enforce RBAC.}
+        \resumeItem{Designed a comprehensive PostgreSQL schema using \textbf{JPA} and \textbf{Hibernate} for stores, products, orders, and notifications.}
+        \resumeItem{Engineered an end-to-end order lifecycle system with "split-by-store" logic and an event-based audit trail.}
+        \resumeItem{Developed a native Android client using \textbf{Jetpack Compose}, \textbf{MVVM}, \textbf{Hilt DI}, and \textbf{Retrofit}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Loom -- AI-Enhanced Social Content Platform}{Feb 2025 -- May 2025}
+      {Social Media Platform}{\href{https://github.com/MFAIZAN20/WebProject_Loom}{github.com/MFAIZAN20/WebProject\_Loom}}
+      \resumeItemListStart
+        \resumeItem{Built a Reddit-style social platform with posts, threaded comments, and voting using \textbf{PHP} and \textbf{MySQL}.}
+        \resumeItem{Optimized MySQL queries and indexing, reducing average query latency by \textbf{30\%}.}
+        \resumeItem{Integrated a Python ML service to moderate content in real-time with \textbf{sub-200ms} latency.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {DreamCanvas -- Microservices Dream Content Platform}{Oct 2025 -- Dec 2025}
+      {Dockerized Microservices System}{\href{https://github.com/MFAIZAN20/dreamcanvas}{github.com/MFAIZAN20/dreamcanvas}}
+      \resumeItemListStart
+        \resumeItem{Built a Docker Compose microservices stack with a Node.js (Express) API gateway routing requests to services written in Node.js and Python (Flask).}
+        \resumeItem{Implemented PostgreSQL persistence and schema for dream entries and Redis-backed services for caching and notifications.}
+        \resumeItem{Added resilient service communication with proxy timeouts, health endpoints, and graceful fallbacks when database connectivity is unavailable.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {DevOpsProject -- DreamCanvas on Kubernetes}{Dec 2025}
+      {Kubernetes Deployment (Minikube)}{\href{https://github.com/MFAIZAN20/DevOpsProject}{github.com/MFAIZAN20/DevOpsProject}}
+      \resumeItemListStart
+        \resumeItem{Deployed the DreamCanvas stack on Minikube using Kubernetes Deployments, Services, StatefulSets, ConfigMaps, Secrets, and PersistentVolumeClaims.}
+        \resumeItem{Configured Nginx Ingress routing for a local host and service paths across the API gateway and microservices.}
+        \resumeItem{Provisioned PostgreSQL and Redis workloads and validated rollouts using kubectl and health checks.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {TodoList -- Android Task Manager}{Mar 2025}
+      {Android Application}{\href{https://github.com/MFAIZAN20/TodoList}{github.com/MFAIZAN20/TodoList}}
+      \resumeItemListStart
+        \resumeItem{Built an Android task manager with signup, login, and per-user task lists using RecyclerView and view binding.}
+        \resumeItem{Integrated a REST backend via Retrofit to create, fetch, and delete tasks.}
+        \resumeItem{Integrated Firebase Analytics and Crashlytics for app telemetry and crash reporting.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading{\textbf{Additional Projects}}{}
+      \resumeItemListStart
+        \resumeItem{\href{https://github.com/MFAIZAN20/Competitive_Programming}{Competitive Programming:} C++ solutions and practice for data structures and algorithms.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------LEADERSHIP-----------
+\section{Leadership and Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Aspire University Leader}{}
+      {Selected for a competitive global leadership program; contributed to organizing student initiatives and chapter activities.}{}
+  \resumeSubHeadingListEnd
+
+
+\end{document}
