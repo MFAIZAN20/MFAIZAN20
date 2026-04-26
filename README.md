@@ -205,7 +205,7 @@ Available for Full-Stack, AI Systems, Backend, and Mobile Engineering roles. Ope
 <div align="center">
 <br/>
 
-[![Resume](https://img.shields.io/badge/Download%20Resume-b5854a?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/MFAIZAN20/MFAIZAN20/blob/main/Muhammad_Faizan_Resume.pdf)
+[![Resume](https://img.shields.io/badge/Download%20Resume-b5854a?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/MFAIZAN20/MFAIZAN20/main/Muhammad_Faizan_Resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-faizan-65828425b/)
 [![Upwork](https://img.shields.io/badge/Hire%20on%20Upwork-6FDA44?style=for-the-badge&logo=upwork&logoColor=white)](https://upwork.com/freelancers/~0114ab89df16a519cf)
 [![Email](https://img.shields.io/badge/Send%20an%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mfkhalil683@gmail.com)
